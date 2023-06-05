@@ -16,7 +16,7 @@ def genPassword(n):
 while True:
     max = input("How long should the password be? (10 chars minimum): ")
     if not max.isdigit():    
-        print('Provided value cannot be convetred to a integer.\n')
+        print('Provided value cannot be convetred to an integer.\n')
     elif not int(max) >= 10:
         print('Not enough characters.\n')
     else:
